@@ -1,0 +1,8 @@
+{
+  "name": "Notes",
+  "version": "1.0.0",
+  "description": "Make and Save your notes",
+  "main": "src/app.js",
+  "author": "Abhinav Kumar",
+  "license": "MIT"
+}
