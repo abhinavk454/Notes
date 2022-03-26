@@ -3,6 +3,7 @@ const express = require("express"),
   cors = require("cors"),
   routes = require("../routes/user.routes");
 require("dotenv").config();
+require("../configs/db.config");
 
 //creating app
 const app = express();
@@ -14,7 +15,7 @@ app.use(cors());
 app.use(express.urlencoded());
 
 //setting routes
-app.use(routes);
+// app.use(routes);
 
 //starting server
 try {
