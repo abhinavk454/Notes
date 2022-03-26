@@ -4,5 +4,11 @@
   "description": "Make and Save your notes",
   "main": "src/app.js",
   "author": "Abhinav Kumar",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.15"
+  }
 }
